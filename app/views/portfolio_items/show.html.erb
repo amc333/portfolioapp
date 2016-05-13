@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @portfolio_item.image %>
+</p>
+
+<p>
+  <strong>Caption:</strong>
+  <%= @portfolio_item.caption %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @portfolio_item.description %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @portfolio_item.active %>
+</p>
+
+<p>
+  <strong>Order:</strong>
+  <%= @portfolio_item.order %>
+</p>
+
+<%= link_to 'Edit', edit_portfolio_item_path(@portfolio_item) %> |
+<%= link_to 'Back', portfolio_items_path %>
